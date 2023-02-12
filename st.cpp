@@ -2,19 +2,13 @@
 int main(int argc, char* argv[]){
 	int k;
         std::cin>>k;
-	int n;
-	std::cin>>n;
 	unsigned int a;
-	a=1;
+	std::cin>>a;
 	unsigned int b;
-	b=a<<k;
+	b=a>>k;
 	unsigned int c;
-	c=1;
-	unsigned int s;
-	s=c<<n;
-	unsigned int d;
-	d=b+s;
-	std::cout<<d<<std::endl;
+	c=b<<k;
+	std::cout<<c<<std::endl;
 	return 0;
 }
 
