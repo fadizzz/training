@@ -4,17 +4,13 @@ int main(int argc, char* argv[]){
         std::cin>>a;
 	signed int k;
 	std::cin>>k;
-	signed int b;
-	b=a>>k;
-	unsigned int s;
-	s=b;
-	unsigned int j;
-	j=s>>1;
-	unsigned int f;
-	f=j<<1;
-	unsigned int r;
-	r=b^f;
-	std::cout<<r<<std::endl;
+	unsigned int b;
+	unsigned int h=1;
+	b=h<<k;
+	unsigned int g;
+	g=a^b;
+
+	std::cout<<g<<std::endl;
 	return 0;
 }
 
