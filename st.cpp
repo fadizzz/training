@@ -1,14 +1,19 @@
 #include <iostream>
 int main(int argc, char* argv[]){
-	int k;
-        std::cin>>k;
-	unsigned int a;
-	std::cin>>a;
-	unsigned int b;
-	b=a>>k;
-	unsigned int c;
-	c=b<<k;
-	std::cout<<c<<std::endl;
+	int a;
+        std::cin>>a;
+	signed int k;
+	std::cin>>k;
+	signed int h=1;
+	signed int b;
+	b=h<<k;
+	signed int s;
+	s=a|b;
+	signed int f;
+	f=~s;
+	signed int t;
+	t=~f;
+	std::cout<<t<<std::endl;
 	return 0;
 }
 
